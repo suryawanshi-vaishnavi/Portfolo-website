@@ -4,23 +4,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio website</title>
+    <title>Portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-   <nav class="navbar">
-       <div class="max-width">
-           <div class="logo">
-               <a href="#">Portfo<span>lio</span></a>
-           </div>
-           <ul class="menu">
-               <li><a href=""class="menu"></a></li>
-               <li><a href=""class="menu"></a></li>
-               <li><a href=""class="menu"></a></li>
-               <li><a href=""class="menu"></a></li>
-               <li><a href=""class="menu"></a></li>
-               <li><a href=""class="menu"></a></li>
-           </ul>
-       </div>
-   </nav>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home"><i class='bx bx-home'></i> Home</a>
+            <a href="#about"><i class='bx bxs-user'></i> About</a>
+            <a href="#project"><i class='bx bx-terminal'></i> Project</a>
+            <a href="#resume"><i class='bx bxs-file'></i>Resume</a>
+        </nav>
+    </header>
+
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3><p>Hi There! &#128075;&#127995;</p> </h3>
+            <h1>I'M Vaishnavi</h1>
+            <h3> <span class="text" id="element"></span></h3><br>
+            <br>
+            <h4>I am a <span class="intro">Frontend developer </span> and I have completed my <span class="intro">BE(Computer Engineering )</span> from VPKBIET college.<br>
+            I am fluent in classics like <span class="intro">HTML5, CSS, Javascript and React JS .</span></h4><br>
+        
+
+            <h3><p>FIND ME ON &#128071;&#127995;</p> </h3>
+            <a href="https://github.com/suryawanshi-vaishnavi"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/vaishnavi-suryawanshi-104712186/"><i class='bx bxl-linkedin'></i></a>
+            
+        </div>
+
+
+        <div class="home-img">
+            <img src="bg.png" class="bg">
+          </div>      
+         
+    </section>
+    <hr>
+   
+
+
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="about.png">
+        </div>
+        <div class="about-text">
+            <h2>Know Who <span>I'm</span></h2>
+            <p>Hi Everyone, I am <span>Vaishnavi Suryawanshi</span> from Pune , Maharashtra.
+                I am a engineer and completed my graduation.
+                I motivated my own small success. I try to learn new technologies everyday.
+                
+                Apart from developing, some other activities that I love to do!
+                
+                Traveling,
+                craft
+            </p>
+        </div>
+    </section>
+    <hr>
+
+   
+    <section class="project" id="project">
+                  <h1 class="heading">Latest <sapn>Project</sapn></h1>
+
+            
+                <div class="project-container">
+
+                    <div class="project-box">
+                        <img src="Portfolio.png">
+                        <div class="project-layer">
+                            <h2>Portfolio</h2>
+                            <p>This is the web application which show who i am.It shows my project , skills. And at last you can download resume in this web application. </p>
+                            <a href="#" class="read"><i class='bx bx-link-external'></i>View Project</a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-box">
+                        <img src="Portfolio.png">
+                        <div class="project-layer">
+                            <h2>Portfolio</h2>
+                            <p>This is the web application which show who i am.It shows my project , skills.
+                            And at last you can download resume in this web application. </p>
+                            <a href="#" class="read"><i class='bx bx-link-external'></i> View Project</a>
+                        </div>
+                    </div>
+              
+                </div>
+    </section>
+    <hr>
+    <section class="resume" id="resume">
+        <button class="btn">Download CV</button>
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
